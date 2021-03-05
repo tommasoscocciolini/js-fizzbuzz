@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 5%;
+}
+
+ul li{
+  padding: 10px;
+  list-style: none;
+  width: 10vw;
+  display: inline-block;
+  /* border-bottom: 1px solid black;
+  border-right: 1px solid black; */
+  box-shadow:2px 2px #888888;
+}
+
+@media all and (max-width:768px) {
+  ul li{
+    width: 20vw;
+  }
+}
